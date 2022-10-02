@@ -142,7 +142,7 @@ end)
 local Tab = Window:NewTab("Keybinds")
 local KeybindsSection = Tab:NewSection("Kepybinds for abilities")
 
-KeybindsSection:NewKeybind("Teleportation", "KeybindInfo", Enum.KeyCode.F, function()
+KeybindsSection:NewKeybind("Teleportation", "KeybindInfo", Enum.KeyCode.U, function()
 	print("You just clicked the bind")
     clicktpon = true                    
     plr = game.Players.LocalPlayer
