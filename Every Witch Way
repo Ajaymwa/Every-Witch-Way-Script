@@ -1,6 +1,6 @@
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Every Witch Way", "DarkTheme")
+local Window = Library.CreateLib("Every Witch Way", "BloodTheme")
 
 local Tab = Window:NewTab("Main")
 local MainSection = Tab:NewSection("Minor exploits")
@@ -140,7 +140,7 @@ end
 end)
 
 local Tab = Window:NewTab("Keybinds")
-local Section = Tab:NewSection("Kepybinds for abilities")
+local KeybindsSection = Tab:NewSection("Kepybinds for abilities")
 
 KeybindsSection:NewKeybind("Teleportation", "KeybindInfo", Enum.KeyCode.F, function()
 	print("You just clicked the bind")
