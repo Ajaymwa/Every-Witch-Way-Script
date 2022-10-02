@@ -139,6 +139,9 @@ game:GetService("ReplicatedStorage").SleepSpellEvent:FireServer(unpack(args))
 end   
 end)
 
+local Tab = Window:NewTab("Keybinds")
+local Section = Tab:NewSection("Kepybinds for abilities")
+
 KeybindsSection:NewKeybind("Teleportation", "KeybindInfo", Enum.KeyCode.F, function()
 	print("You just clicked the bind")
     clicktpon = true                    
